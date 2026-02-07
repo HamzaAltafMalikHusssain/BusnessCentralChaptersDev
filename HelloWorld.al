@@ -10,7 +10,7 @@ using Microsoft.Sales.Customer;
 // Change commited by Hamza Altaf
 
 
-// Pushing change from Dev Hamza on Dev Hamza
+// Pushing change from Dev Hamza on Dev Hamza (The code has reached on Dev Branch)
 
 pageextension 50104 CustomerListExt extends "Customer List"
 {
