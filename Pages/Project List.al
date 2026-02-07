@@ -20,6 +20,10 @@ page 60010 "Project List"
                 {
                     ApplicationArea = All;
                 }
+                field("Allowed costing amount"; Rec."Allowed costing amount")
+                {
+                    ApplicationArea = All;
+                }
             }
         }
     }

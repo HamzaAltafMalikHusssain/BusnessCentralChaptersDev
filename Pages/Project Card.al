@@ -18,6 +18,10 @@ page 60011 "Project Card"
                 {
                     ApplicationArea = All;
                 }
+                field("Allowed costing amount"; Rec."Allowed costing amount")
+                {
+                    ApplicationArea = All;
+                }
             }
 
             part(ProjectTasks; "Project Task Subpage")

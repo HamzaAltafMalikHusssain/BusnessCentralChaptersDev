@@ -6,6 +6,7 @@ table 60004 Project
     {
         field(1; "Project No."; Code[20]) { }
         field(2; Description; Text[50]) { }
+        field(3; "Allowed costing amount"; Decimal) { }
     }
 
     keys
@@ -15,6 +16,6 @@ table 60004 Project
 
     fieldgroups
     {
-        fieldgroup(DropDown; "Project No.", Description) { }
+        fieldgroup(DropDown; "Project No.", Description, "Allowed costing amount") { }
     }
 }
