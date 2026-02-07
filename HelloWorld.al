@@ -9,6 +9,9 @@ using Microsoft.Sales.Customer;
 // this Alcode snippet I am going to checkin  and the commit is second
 // Change commited by Hamza Altaf
 
+
+// Pushing change from Dev Hamza on Dev Hamza
+
 pageextension 50104 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
