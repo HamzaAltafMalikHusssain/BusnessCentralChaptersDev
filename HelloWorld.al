@@ -6,7 +6,8 @@ namespace DefaultPublisher.ALProject1;
 
 using Microsoft.Sales.Customer;
 
-// this Alcode snippet I am going to checkin from Dev Branch to see the changes further
+// this Alcode snippet I am going to checkin  and the commit is second
+// Change commited by Hamza Altaf
 
 pageextension 50104 CustomerListExt extends "Customer List"
 {

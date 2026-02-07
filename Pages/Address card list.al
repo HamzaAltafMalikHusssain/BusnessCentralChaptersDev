@@ -1,3 +1,6 @@
+// <summary>
+// The <c>Address List</c> page shows a list of addresses.  It is used as part of the address management feature in Business Central, and is linked to the <c>Address Card</c> page which shows details of a single address.
+// </summary>
 page 50111 "Address List"
 {
     PageType = List;
