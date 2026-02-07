@@ -1,3 +1,6 @@
+// All the addresses that would be saved would be according to pakistani format please note
+// Comment added by Hamza Altaf
+
 page 50112 "Address Card"
 {
     PageType = Card;
