@@ -6,6 +6,8 @@ namespace DefaultPublisher.ALProject1;
 
 using Microsoft.Sales.Customer;
 
+// this Alcode snippet I am going to checkin from Dev Branch to see the changes further
+
 pageextension 50104 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
