@@ -26,6 +26,11 @@ page 60021 "Project Costing Card"
                 {
                     ApplicationArea = All;
                 }
+                field("Created By"; Rec."Created By")
+                {
+                    ApplicationArea = All;
+                    Editable = false;
+                }
             }
 
             part(CostingLines; "Project Costing Lines Subpage")

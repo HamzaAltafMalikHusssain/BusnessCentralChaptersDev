@@ -22,6 +22,10 @@ page 60011 "Project Card"
                 {
                     ApplicationArea = All;
                 }
+                field("Allowed to be used"; Rec."Allowed to be used")
+                {
+                    ApplicationArea = All;
+                }
             }
 
             part(ProjectTasks; "Project Task Subpage")
