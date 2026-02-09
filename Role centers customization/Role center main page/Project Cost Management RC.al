@@ -4,6 +4,22 @@ page 60100 "Project Cost Management RC"
     ApplicationArea = All;
     Caption = 'Project Cost Management Accountant';
 
+    layout
+    {
+        area(RoleCenter)
+        {
+            part(ProjectCues; "Project Cue Page")  // This is page 60102
+            {
+                ApplicationArea = All;
+                Caption = 'Project Overview';
+            }
+            part(HeadlinePart; "PCM headline H1")
+            {
+                ApplicationArea = All;
+            }
+        }
+    }
+
     actions
     {
         // this section is the navbar
@@ -66,6 +82,7 @@ page 60100 "Project Cost Management RC"
                 Caption = 'Television Shows';
             }
         }
+
 
         area(Processing)
         {
