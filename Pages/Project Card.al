@@ -33,6 +33,11 @@ page 60011 "Project Card"
                 ApplicationArea = All;
                 SubPageLink = "Project No." = field("Project No.");
             }
+            part(ApprovedVendors; "Approved Vendors Subpage")
+            {
+                ApplicationArea = All;
+                SubPageLink = "Project No." = field("Project No.");
+            }
         }
     }
 }

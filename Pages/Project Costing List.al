@@ -16,6 +16,7 @@ page 60020 "Project Costing List"
                 field("Project No."; Rec."Project No.") { }
                 field("Costing description"; Rec."Costing description") { }
                 field("Costing date"; Rec."Costing date") { }
+
             }
         }
     }

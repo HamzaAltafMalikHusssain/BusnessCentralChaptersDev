@@ -6,6 +6,7 @@ page 60100 "Project Cost Management RC"
 
     actions
     {
+        // this section is the navbar
         area(Sections)
         {
             group(ProjectNav)
@@ -34,6 +35,8 @@ page 60100 "Project Cost Management RC"
                 }
             }
         }
+        // Embedding shows the area below navbar the sub navigation where the menu Item
+        // are added that would open pages or code units 
 
         area(Embedding)
         {
@@ -41,37 +44,49 @@ page 60100 "Project Cost Management RC"
             {
                 ApplicationArea = All;
                 RunObject = page 60010;
-                Caption = 'Project List EMB';
+                Caption = 'Projects';
             }
 
             action(ProjectCostingEmbed)
             {
                 ApplicationArea = All;
                 RunObject = page 60020;
-                Caption = 'Project Costing EMB';
+                Caption = 'Project Costing';
+            }
+            action(AddressListEmbed)
+            {
+                ApplicationArea = All;
+                RunObject = page 50111;
+                Caption = 'Address Book';
+            }
+            action(TelevisionListEmbed)
+            {
+                ApplicationArea = All;
+                RunObject = page 50114;
+                Caption = 'Television Shows';
             }
         }
 
         area(Processing)
         {
-            group(ProjectActions)
-            {
-                Caption = 'Project';
+            // group(ProjectActions)
+            // {
+            //     Caption = 'Project';
 
-                action(ProjectListAction)
-                {
-                    ApplicationArea = All;
-                    RunObject = page 60010;
-                    Caption = 'Project List ACT';
-                }
+            //     action(ProjectListAction)
+            //     {
+            //         ApplicationArea = All;
+            //         RunObject = page 60010;
+            //         Caption = 'Project List ACT';
+            //     }
 
-                action(ProjectCostingAction)
-                {
-                    ApplicationArea = All;
-                    RunObject = page 60020;
-                    Caption = 'Project Costing ACT';
-                }
-            }
+            //     action(ProjectCostingAction)
+            //     {
+            //         ApplicationArea = All;
+            //         RunObject = page 60020;
+            //         Caption = 'Project Costing ACT';
+            //     }
+            // }
         }
     }
 }

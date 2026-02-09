@@ -29,6 +29,15 @@ page 60022 "Project Costing Lines Subpage"
                 {
                     ApplicationArea = All;
                 }
+                field("Approved project vendor"; Rec."Approved project vendor")
+                {
+                    ApplicationArea = All;
+                }
+                field("Vendor Name"; Rec."Vendor Name")
+                {
+                    ApplicationArea = All;
+                    Editable = false;
+                }
             }
         }
     }
